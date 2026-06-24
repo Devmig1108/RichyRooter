@@ -1227,9 +1227,9 @@
             </a>
 
             <div class="nav-controls">
-                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Light/Dark Mode">
+                <!-- <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Light/Dark Mode">
                     <i class="fas fa-moon"></i>
-                </button>
+                </button> -->
                 <input type="checkbox" id="menu-toggle">
                 <label for="menu-toggle" class="hamburger">
                     <span></span><span></span><span></span>
