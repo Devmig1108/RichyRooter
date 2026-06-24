@@ -267,7 +267,7 @@
             font-size: 1.2rem;
             cursor: pointer;
             transition: var(--transition);
-            diplay: none;
+            display: none;
         }
 
         .theme-toggle:hover {
