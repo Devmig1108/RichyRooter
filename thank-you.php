@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Richy Rooter Plumbing El Paso</title>
+    <meta name="description" content="Thank you for contacting Richy Rooter. We are reviewing your service request and will be in touch shortly.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Nunito:ital,wght@0,500;0,700;0,800;0,900;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --rr-red: #A6192E;
+            --rr-red-hover: #801323;
+            --rr-black: #0f172a;
+            --bg-color: #05080f;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Cinematic Background */
+        .bg-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(80%);
+            opacity: 0.15;
+            z-index: 0;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-width: 700px;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* Glassmorphism Card */
+        .coming-soon-card {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-top: 4px solid var(--rr-red);
+            padding: 60px 40px;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        /* Logo Styling */
+        .logo {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #ffffff;
+            padding: 10px 25px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+        }
+        .logo img {
+            height: 40px;
+        }
+        .logo-text {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 900;
+            line-height: 1;
+        }
+
+        /* Typography */
+        h1 {
+            font-family: 'Nunito', sans-serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 900;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+            line-height: 1.1;
+        }
+        p {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+
+        /* Contact Details */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .contact-item {
+            background: rgba(255,255,255,0.03);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .contact-item i {
+            color: var(--rr-red);
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .contact-item h4 {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        .contact-item a, .contact-item span {
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .contact-item a:hover {
+            color: var(--rr-red);
+        }
+
+        /* Button */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: var(--rr-red);
+            color: #ffffff;
+            padding: 16px 40px;
+            border-radius: 50px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(166, 25, 46, 0.3);
+        }
+        .btn:hover {
+            background: var(--rr-red-hover);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(166, 25, 46, 0.4);
+        }
+
+        /* Footer Element */
+        .footer-info {
+            margin-top: 30px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
+            opacity: 0;
+        }
+
+        /* Animations */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 600px) {
+            .coming-soon-card { padding: 40px 25px; }
+        }
+    </style>
+</head>
+<body>
+
+    <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=2000&auto=format&fit=crop" class="bg-image" alt="Plumbing Background">
+
+    <div class="container">
+        <div class="coming-soon-card">
+            
+            <div class="logo">
+                <img src="images/logo.png" alt="Richy Rooter Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="logo-text" style="display: none;">
+                    <span style="color: var(--rr-black);">RICHY</span>
+                    <span style="color: var(--rr-red);">ROOTER</span>
+                </div>
+            </div>
+
+            <h1>Request Received!</h1>
+            <p>Your plumbing service request has been successfully submitted. Our dispatch team is reviewing your information and will reach out immediately.</p>
+
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Need Immediate Help?</h4>
+                    <a href="tel:9158737000">(915) 873-7000</a>
+                </div>
+            </div>
+
+            <a href="/" class="btn">
+                <i class="fas fa-arrow-left"></i> Return Home
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p style="font-style: italic; color: var(--rr-red); margin-bottom: 5px;">"I can do all things through Christ who strengthens me." – Philippians 4:13</p>
+            <p>&copy; 2026 Richy Rooter LLC. All Rights Reserved. | Texas License #M-42702</p>
+        </div>
+    </div>
+
+</body>
+</html>
