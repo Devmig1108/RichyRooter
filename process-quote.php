@@ -12,7 +12,7 @@ if (!empty($_POST['company_website'])) {
 // 2. Set ZeptoMail Credentials
 $zeptoMailToken = "Zoho-enczapikey wSsVR60g/EakBqwpz2f7du87kQgEBgz1FU1/3Vrz7CL4SPnLpcdqxEKYDASuTfhNEGVsQWBEo+ggyUhS0TRdiN8vyF1SDSiF9mqRe1U4J3x17qnvhDzOXG1ckhWMKIkJwgxvmmJmEsEi+g==";
 $verifiedSenderEmail = "info@richyrooterllc.com"; // UPDATE THIS to your verified sending domain
-$clientRecipientEmail = "granadosr90@yahoo.com"; // UPDATE THIS to the client's inbox
+$clientRecipientEmail = "miguel@ervotechep.com"; // UPDATE THIS to the client's inbox
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
