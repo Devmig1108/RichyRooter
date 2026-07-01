@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div style='font-family: Arial, sans-serif; background-color: #f4f7f6; padding: 40px 20px; color: #333;'>
         <div style='max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border: 1px solid #e2e8f0;'>
             
-            <div style='background-color: #A6192E; padding: 25px; text-align: center;'>
+            <div style='background-color: #121a2c; padding: 25px; text-align: center;'>
                 <h2 style='margin: 0; font-size: 24px; font-weight: 900; color: #ffffff; text-transform: uppercase; letter-spacing: 1px;'>New Dispatch Request</h2>
             </div>
             
@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <tr>
                         <td style='padding: 14px 0; border-bottom: 1px solid #eeeeee; font-weight: bold; color: #0f172a;'>Email Address:</td>
                         <td style='padding: 14px 0; border-bottom: 1px solid #eeeeee;'>
-                            <a href='mailto:{$email}' style='color: #A6192E; text-decoration: none; font-weight: bold;'>{$email}</a>
+                            <a href='mailto:{$email}' style='color: #121a2c; text-decoration: none; font-weight: bold;'>{$email}</a>
                         </td>
                     </tr>
                     <tr>
