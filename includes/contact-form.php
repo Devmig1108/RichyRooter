@@ -93,7 +93,7 @@
     <h3>Request Service</h3>
     <p>Fill out the form below and our dispatch team will reach out immediately.</p>
     
-    <form action="process-quote.php" method="POST">
+    <form action="/process-quote.php" method="POST">
         
         <input type="text" name="company_website" style="display:none;" tabindex="-1" autocomplete="off">
 
