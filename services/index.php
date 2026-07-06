@@ -5,7 +5,7 @@ $pageDesc = "Comprehensive residential and commercial plumbing services in El Pa
 include('../includes/header.php');
 ?>
 
-<header class="hero-premium" style="min-height: 50vh; align-items: flex-end; padding-bottom: 50px;">
+<!-- <header class="hero-premium" style="min-height: 50vh; align-items: flex-end; padding-bottom: 50px;">
     <div class="hero-text-content" style="padding: 5% 10%;">
         <span class="hero-label reveal-up">
             <i class="fas fa-tools"></i>
@@ -23,16 +23,21 @@ include('../includes/header.php');
         </p>
     </div>
     <div class="hero-image-curve" style="box-shadow: none;">
-        <img src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?q=80&w=2000&auto=format&fit=crop"
+        <img src="../images/services.jpeg"
             class="hero-bg" alt="Plumbing tools and blueprints" style="filter: grayscale(40%) brightness(0.8);">
     </div>
-</header>
+</header> -->
 
 <section class="services-section curved-top" style="margin-top: -40px;">
+    <div class="section-header reveal-up" style="text-align: center; margin-bottom: 20px;">
+        <span
+            style="color: var(--rr-red); text-transform: uppercase; letter-spacing: 2px; font-weight: 800; font-size: 0.8rem; display: block; margin-bottom: 10px;">Project
+            Showcase</span>
+        <h2 style="font-size: clamp(2.5rem, 5vw, 3rem);">Trusted Plumbing Services in
+            El Paso, Texas.</h2>
+    </div>
     <div class="container">
         <div class="section-header reveal-up">
-            <span>FULL COVERAGE</span>
-            <h2>Everything You Need, Done Right.</h2>
             <p>From a simple leaking faucet to complex commercial sewer inspections, we have the specialized equipment
                 and expertise to provide reliable solutions.</p>
         </div>
@@ -90,6 +95,28 @@ include('../includes/header.php');
                 </ul>
             </div>
         </div>
+    </div>
+</section>
+
+<section style="padding: 60px 5%; background: #f8fafc;">
+    <div class="container" style="max-width: 1200px; text-align: center;">
+        <h2 style="margin-bottom: 40px;">Quality You Can See</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+            <div class="project-card" style="border-radius: var(--radius-medium); overflow: hidden; box-shadow: var(--shadow-card);">
+                <img src="../images/fixtures.jpg" alt="Kitchen Fixture Installation" style="width: 100%; height: 250px; object-fit: cover;">
+            </div>
+            <div class="project-card" style="border-radius: var(--radius-medium); overflow: hidden; box-shadow: var(--shadow-card);">
+                <img src="../images/water_heater.jpg" alt="Water Heater Installation" style="width: 100%; height: 250px; object-fit: cover;">
+            </div>
+            <div class="project-card" style="border-radius: var(--radius-medium); overflow: hidden; box-shadow: var(--shadow-card);">
+                <img src="../images/slab.jpg" alt="Slab Leak Repair" style="width: 100%; height: 250px; object-fit: cover;">
+            </div>
+        </div>
+        
+        <p style="margin-top: 30px; font-weight: 600; color: var(--rr-black);">
+            From precision fixture installations to complex slab repairs—we get the job done right.
+        </p>
     </div>
 </section>
 

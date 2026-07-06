@@ -101,6 +101,26 @@ include('../includes/header.php');
         </div>
     </div>
 </section>
+<section class="gallery-page">
+    <div class="gallery-container">
+        <div class="section-header reveal-up" style="text-align: center; margin-bottom: 40px; margin-top: 40px;">
+            <h2 style="font-size: clamp(2rem, 4vw, 2.5rem);">More From Our Projects</h2>
+        </div>
+
+        <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+            <?php
+            $galleryImages = glob('../images/gallery/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+            foreach ($galleryImages as $image) {
+                $filename = basename($image);
+                echo '
+                <div class="project-card reveal-up" style="padding: 10px;">
+                    <img src="/images/gallery/' . $filename . '" alt="Plumbing project result" style="width: 100%; height: 250px; object-fit: cover; border-radius: var(--radius-small);" loading="lazy">
+                </div>';
+            }
+            ?>
+        </div>
+    </div>
+</section>
 
 <script src="https://cdn.jsdelivr.net/npm/beerslider/dist/BeerSlider.min.js"></script>
 <script>

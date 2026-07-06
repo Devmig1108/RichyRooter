@@ -41,7 +41,7 @@ include('includes/header.php');
     <div class="container offers-grid">
         <div class="offer-visual-container reveal-up">
             <div class="offer-img-mask">
-                <img src="/images/plumber.jpg" class="seo-parallax-img" alt="Plumber inspecting pipes">
+                <img src="/images/twentyfour-seven.jpeg" class="seo-parallax-img" alt="Plumber inspecting pipes">
             </div>
             <div class="offer-badge">
                 <h4>24/7</h4>
