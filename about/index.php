@@ -69,6 +69,22 @@ include('../includes/header.php');
     </div>
 </section>
 
+<section style="padding: 80px 5%; background: var(--bg-section);">
+    <div class="container" style="max-width: 1200px; text-align: center;">
+        <span style="color: var(--rr-red); text-transform: uppercase; letter-spacing: 2px; font-weight: 800; font-size: 0.8rem; display: block; margin-bottom: 10px;">Behind The Scenes</span>
+        <h2 style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 40px;">More Than Just Pipes</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+            <div class="project-card" style="border-radius: var(--radius-medium); overflow: hidden; box-shadow: var(--shadow-card);">
+                <img src="../images/IMG_0912.jpeg" alt="Richy Rooter Star" style="width: 100%; height: 300px; object-fit: cover;">
+            </div>
+            <div class="project-card" style="border-radius: var(--radius-medium); overflow: hidden; box-shadow: var(--shadow-card);">
+                <img src="../images/richy.png" alt="Richy Rooter Mascot" style="width: 100%; height: 300px; object-fit: contain; background: white; padding: 20px;">
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="why-choose-us"
     style="padding: 120px 0; background: var(--bg-section); border-top-left-radius: var(--radius-large); border-top-right-radius: var(--radius-large);">
     <div class="container">
