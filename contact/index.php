@@ -45,7 +45,7 @@ include('../includes/header.php');
                 <h4 style="font-size: 1.2rem; margin-bottom: 15px;"><i class="fas fa-clock" style="color: var(--rr-red); margin-right: 10px;"></i> Business Hours</h4>
                 <ul style="list-style: none; color: var(--text-muted); font-weight: 500;">
                     <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span>Monday – Friday:</span> <span>7:30 AM – 4:30 PM</span></li>
-                    <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span style="color: var(--rr-red); font-weight: 700; float: right">(4:30 PM - 12:00 AM Emergency Calls)</span></li>
+                    <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span style="color: var(--rr-red); font-weight: 700; float: right; width: 100%; text-align: right">(4:30 PM - 12:00 AM Emergency Calls)</span></li>
                     <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span>Saturday:</span> <span>7:30 AM – 12:00 PM</span></li>
                     <li style="display: flex; justify-content: space-between;"><span style="color: var(--rr-red); font-weight: 700;">Sunday:</span> <span style="color: var(--rr-red); font-weight: 700;">Closed</span></li>
                 </ul>
