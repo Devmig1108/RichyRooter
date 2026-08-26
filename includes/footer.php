@@ -38,9 +38,10 @@
         <div class="footer-col reveal-up" style="transition-delay: 0.2s;">
             <h4>BUSINESS HOURS</h4>
             <ul>
-               <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span>Monday – Friday:</span> <span>7:30 AM – 4:30 PM </span>  <span style="color: var(--rr-red); font-weight: 700;">(4:30 PM - 12:00 AM Emergency Calls)</span></li>
-                <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span>Saturday:</span> <span>7:30 AM – 12:00 PM</span></li>
-                <li style="display: flex; justify-content: space-between;"><span style="color: var(--rr-red); font-weight: 700;">Sunday:</span> <span style="color: var(--rr-red); font-weight: 700;">Closed</span></li>
+               <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span>Monday – Friday:</span> <span>7:30 AM – 4:30 PM</span></li>
+                    <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span style="color: var(--rr-red); font-weight: 700; float: right; width: 100%; text-align: right">(4:30 PM - 12:00 AM Emergency Calls)</span></li>
+                    <li style="margin-bottom: 10px; display: flex; justify-content: space-between;"><span>Saturday:</span> <span>7:30 AM – 12:00 PM</span></li>
+                    <li style="display: flex; justify-content: space-between;"><span style="color: var(--rr-red); font-weight: 700;">Sunday:</span> <span style="color: var(--rr-red); font-weight: 700;">Closed</span></li>
             </ul>
 
             <h4 style="margin-top: 30px;">CONTACT</h4>
