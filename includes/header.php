@@ -835,7 +835,7 @@
 
         .footer-grid {
             display: grid;
-            grid-template-columns: 2fr 1fr 1fr;
+            grid-template-columns: 1.5fr 1fr 1.5fr;
             gap: 60px;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
             padding-bottom: 60px;
